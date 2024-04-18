@@ -52,16 +52,6 @@ class bookController extends Controller
             ], 422);
         }else{
 
-            // $book = book::create([
-            //     'name' => $request->name,
-            //     'isbn' => $request->isbn,
-            //     'authors' => $request->authors,
-            //     'country' => $request->country,
-            //     'number_of_pages' => $request->number_of_pages,
-            //     'publisher' => $request->publisher,
-            //     'release_date' => $request->release_date
-            // ]);
-
             // Serialize the authors array into a JSON string
             $authors = json_encode($request->input('authors'), JSON_UNESCAPED_SLASHES);
 
