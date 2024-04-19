@@ -7,9 +7,7 @@ An app for creating, Updating, Reading, Deleting book Details
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Installation
 
@@ -94,5 +92,14 @@ This app utilises 'AnApiOfIceAndFire' to get extenal books data
     }  
 10. 
    ```bash
-   POST http://localhost:8080/api/v1/books
+    POST http://localhost:8080/api/v1/books
+
+### Working with the view Json Data
+1. After installation
+
+2. Start Server
+    ```bash
+    php artisan serve --port=8080
+
+3. Follow the Link
     
