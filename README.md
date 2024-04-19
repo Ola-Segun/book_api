@@ -23,4 +23,22 @@ Short project description goes here.
 3. Copy the .env.example file and rename it to .env:
     ```bash
     cp .env.example .env
-4
+4. Generate an application key:
+    ```bash
+    php artisan key:generate
+5. Set up your database in the .env file:
+   ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=book_api
+    DB_USERNAME=root
+    DB_PASSWORD=
+6. Run database migrations:
+    ```bash
+    php artisan migrate
+7. Serve the application:
+    ```bash
+    Serve the application:
+
+
