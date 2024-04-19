@@ -90,7 +90,7 @@ This app utilises 'AnApiOfIceAndFire' to get extenal books data
     "created_at": "2024-04-18T00:22:56.000000Z",
     "updated_at": "2024-04-18T01:14:44.000000Z"
     }  
-10. 
+9. 
    ```bash
     POST http://localhost:8080/api/v1/books
 
